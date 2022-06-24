@@ -125,3 +125,32 @@ a:hover{
     font-family: 'Shadows Into Light', cursive;
 }
 
+/* *****************************************brands css***************************************** */
+.brands{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+
+}
+
+
+.puma{
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.puma img{
+    padding: 20px ;
+    border-radius: 25px;
+}
+
+.puma::-webkit-scrollbar{
+    overflow:hidden
+}
+
+
+/* *****************************************brands css***************************************** */
